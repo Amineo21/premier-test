@@ -16,4 +16,14 @@
         </form>
     </main>
 </body>
+<script>
+// Validation côté client
+document.querySelector('form').addEventListener('submit', function(e) {
+    const email = this.querySelector('input[type="email"]').value;
+    if (!email.includes('@')) {
+        alert('Email invalide !');
+        e.preventDefault();
+    }
+});
+</script>
 </html>
