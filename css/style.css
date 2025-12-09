@@ -9,3 +9,8 @@ header {
     color: white;
     padding: 1rem;
 }
+
+/* Styles formulaire */
+.form-btn{
+    background : blue;
+}
